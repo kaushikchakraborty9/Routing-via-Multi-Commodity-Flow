@@ -9,10 +9,10 @@ import networkx as nx
 
 
 
-def graph_read():
+def graph_read(S):
 
 """Read the input graph from a .graphml.xml file. Here we consider the 'Surfnet.graphml.xml' as the input file."""
-    H = nx.read_graphml('Surfnet.graphml.xml')
+    H = nx.read_graphml(S)
 
     max=400
     Nodes = list(H.nodes)
