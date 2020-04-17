@@ -18,7 +18,7 @@ q=0.5                                       # BSM success probability
 Aff=[]                                      #Variables for the LP objective function
 vars=[]                                     #LP variables
 
-G = graph_read("Surfnet.graphml.xml")       #Reading the graph
+G = graph_read('Surfnet.graphml.xml')       #Reading the graph
 n = len(list(G.nodes()))
 #Seed for generating random numbers
 seed(85)
